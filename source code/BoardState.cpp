@@ -7,7 +7,7 @@
 #include <cmath>
 
 //
-// Representation of a board state. Has an array of squares, as well as info on whose turn it is and castling.
+// Representation of a board state. Has an array of squares, as well as info on whose turn it is and castling rights.
 // You can initiate a move on a board state to return the new board state.
 //
 
