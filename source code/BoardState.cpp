@@ -388,7 +388,7 @@ bool BoardState::legalMove(Move move) {
     return true;
 }
 
-// returns square object at specified coordinates
+// returns Square object at specified coordinates
 Square BoardState::getSquare(int x, int y){
     return squares[x][y];
 }
