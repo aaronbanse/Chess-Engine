@@ -209,6 +209,7 @@ BoardState BoardState::movePiece(Move move) {
     return newBoard;
 }
 
+// returns whose turn it is; true if white, false if black
 bool BoardState::isWhiteTurn() const{
     return whiteTurn;
 }
@@ -618,7 +619,7 @@ double BoardState::eval() {
     return total;
 }
 
-//
+
 bool BoardState::operator()(const Move &move1, const Move &move2)
 {
     bool higher = movePiece(move1).eval() > movePiece(move2).eval();
