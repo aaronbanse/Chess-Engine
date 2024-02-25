@@ -4,5 +4,5 @@ A terminal-based chess engine written in C++ utilizing minimax and alpha-beta pr
 
 ## Usage
 Uses makefile to compile.
-Enter moves in (standard algebraic notation)[https://en.wikipedia.org/wiki/Algebraic_notation_(chess)]
+Enter moves in [standard algebraic notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess))
 Enter 'best' to compute and execute best move according to the engine.
